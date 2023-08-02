@@ -15,9 +15,11 @@ Requirement:
   FRNN from: https://github.com/lxxue/FRNN;
   pybind11(https://github.com/pybind/pybind11) for I/O between C++ (ISPH data information) and python (GNN data information);
   The code is tested under Linux Ubuntu 18.04 with CUDA 11.7;
+  
+Implementation:
 
-To run the simulation of ISPH_GNN for producing the numerical results including the particle distribution and pressure contour (reslt_animate), 
-the surface evelations at time instant t1(result_surfacet1) or the surface evelations at position x1(result_surfacex1),etc. 
+  To run the simulation of ISPH_GNN for producing the numerical results including the particle distribution and pressure contour (reslt_animate), 
+  the surface evelations at time instant t1(result_surfacet1) or the surface evelations at position x1(result_surfacex1),etc. 
 
   LD_LIBRARY_PATH=. ./isphgnntest
 
