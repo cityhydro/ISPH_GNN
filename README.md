@@ -19,7 +19,7 @@ Requirement:
 Implementation:
 
   To run the simulation of ISPH_GNN for producing the numerical results including the particle distribution and pressure contour (reslt_animate), 
-  the surface evelations at time instant t1(result_surfacet1) or the surface evelations at position x1(result_surfacex1),etc. 
+  the surface evelations at time instant t1(result_freet1) or the surface evelations at position x1(result_freex1),etc. 
 
   LD_LIBRARY_PATH=. ./isphgnntest
 
